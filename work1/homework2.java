@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class homework2 {
-    public static int findMaxArray(int[] array) {
-        int maxSum = Integer.MIN_VALUE;
+    public static int findMax(int[] array) {
+        int maxSum = 0;
         int currentSum = 0;
         for (int i = 0; i < array.length; i++) {
             if (currentSum < 0) {
@@ -24,6 +24,6 @@ public class homework2 {
         for (int i = 0; i < number; i++) {
             array[i] = (int) sc.nextInt();
         }
-        System.out.println(findMaxArray(array));
+        System.out.println(findMax(array));
     }
 }

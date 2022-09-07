@@ -1,5 +1,4 @@
 public class homework3 {
-
     public static void main(String[] args) {
         int count = 1, j = 0, i = 0;
         for (i = 2; i <= 20000; i++) {
@@ -8,7 +7,6 @@ public class homework3 {
                 if (i % j == 0) {
                     break;
                 }
-
             }
             if (j == k + 1) {
                 count++;
