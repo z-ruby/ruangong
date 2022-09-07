@@ -17,12 +17,10 @@ public class homework2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int number = Integer.parseInt(sc.next());
-        // number表示数组的长度
-        int[] array = new int[number];
-        // 对数组元素循环赋值
+        int number = Integer.parseInt(sc.next()); // 数组长度多少。
+        int[] array = new int[number]; // 对数组循环赋值操作。
         for (int i = 0; i < number; i++) {
-            array[i] = (int) sc.nextInt();
+            array[i] = sc.nextInt();
         }
         System.out.println(findMax(array));
     }

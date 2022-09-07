@@ -13,7 +13,6 @@ public class homework3 {
                 System.out.println(i + " ");
                 if (count % 5 == 0) {
                     System.out.println();
-
                 }
             }
         }
