@@ -16,6 +16,6 @@ public class homework3 {
                 }
             }
         }
-        System.out.println("素数的个数为：" + count);
+        System.out.println(count);
     }
 }
